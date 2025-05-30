@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { gsap } from "gsap";
-
+//TODO: Replace the ship with and imag
 const Ship = () => {
   const shipRef = useRef(null);
   const [lastMouseX, setLastMouseX] = useState(null);
